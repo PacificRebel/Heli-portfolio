@@ -5,6 +5,24 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+  resolve: `gatsby-plugin-prefetch-google-fonts`,
+  options: {
+    fonts: [
+      {
+        family: `Special Elite`,
+      },
+      {
+        family: `Roboto Mono`,
+        variants: [`400`, `700`]
+      },
+      {
+        family: `Roboto`,
+        subsets: [`latin`]
+      },
+    ],
+  },
+},
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {

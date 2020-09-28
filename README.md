@@ -1,3 +1,5 @@
+
+Installed sass with these instructions: https://www.gatsbyjs.com/docs/sass/
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

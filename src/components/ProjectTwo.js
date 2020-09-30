@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React, { Component } from "react"
 
 class ProjectTwo extends Component {
@@ -46,7 +44,7 @@ class ProjectTwo extends Component {
           onMouseLeave={this.handleMouseHover}
         >
           <span>
-          <a href="/ProjectTwoDetails">{name}</a>
+          <a href="/ProjectTwoDetails">/{name}</a>
           </span>
         </div>
         {this.state.isHovering && <div>{description}</div>}

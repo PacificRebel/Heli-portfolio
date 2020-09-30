@@ -10,7 +10,7 @@ module.exports = {
   options: {
     fonts: [
       {
-        family: `Special Elite`,
+        family: `Special Elite`
       },
       {
         family: `Roboto Mono`,

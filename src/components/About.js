@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { Component } from "react"
 
-class ProjectOne extends Component {
+class About extends Component {
   constructor(props) {
     super(props)
       this.state = { starredUserData: [],
@@ -21,39 +21,39 @@ class ProjectOne extends Component {
       };
     }
 
-    componentDidMount() {
-      fetch("https://api.github.com/users/PacificRebel/starred")
-      .then(response => response.json())
-      .then(data => {
-        this.setState({starredUserData: data})
-      })
-    }
+    // componentDidMount() {
+    //   fetch("https://api.github.com/users/PacificRebel/starred")
+    //   .then(response => response.json())
+    //   .then(data => {
+    //     this.setState({starredUserData: data})
+    //   })
+    // }
 
     render() {
-      const data = this.state.starredUserData
-      console.log(data)
-      let name = ''
-      let description = ''
-      if (data.length > 0) {
-        name = data[0].name
-        description = data[0].description
-      }
+      // const data = this.state.starredUserData
+      // console.log(data)
+      // let name = ''
+      // let description = ''
+      // if (data.length > 0) {
+      //   name = data[0].name
+      //   description = data[0].description
+      // }
 
       return (
-        <div className="projectone">
+        <div className="about">
         <div
           onMouseEnter={this.handleMouseHover}
           onMouseLeave={this.handleMouseHover}
         >
           <span>
-          <a href="/ProjectOneDetails">/{name}</a>
+          <a href="/About">/about</a>
           </span>
         </div>
-        {this.state.isHovering && <div>{description}</div>}
+        {this.state.isHovering && <div>About me</div>}
         </div>
 
        )
       }
       }
 
- export default ProjectOne
+ export default About

@@ -1,9 +1,9 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
+// import SEO from "../components/seo"
 
 import ProjectOne from "../components/ProjectOne"
 import ProjectTwo from "../components/ProjectTwo"
@@ -11,23 +11,55 @@ import ProjectThree from "../components/ProjectThree"
 import ProjectFour from "../components/ProjectFour"
 import ProjectFive from "../components/ProjectFive"
 import ProjectSix from "../components/ProjectSix"
+import About from "../components/About"
 
 import "./styling.scss"
-import { Column, Row } from 'simple-flexbox';
+import { Column} from 'simple-flexbox';
 
 class IndexPage extends Component{
   render(){
     return(
-      <Layout>
-  <SEO title="Home" />
-  <h2>Projects</h2>
-
-  {/* <Link to="/using-typescript/">Link to Typescript info page</Link>*/}
 
       <Column>
             <div class="container">
 
                         <section class="cards">
+
+                        <article class="card">
+                        <div class="header">
+                          <p><h2>Heli Sivunen</h2></p>
+                          </div>
+                        </article>
+
+                        <article class="card">
+                        <div class="Header">
+                          <p><h3>Front End Developer</h3></p>
+                          </div>
+                        </article>
+
+                        <article class="card">
+                        <div class="header">
+                          <p><h3><About /></h3></p>
+                          </div>
+                        </article>
+
+                        <article class="card">
+                        <div class="text">
+                          <p><h3>Projects</h3></p>
+                          </div>
+                        </article>
+
+                        <article class="card">
+                        <div class="text">
+                          <p></p>
+                          </div>
+                        </article>
+
+                        <article class="card">
+                        <div class="text">
+                          <p></p>
+                          </div>
+                        </article>
 
                         <article class="card">
                         <div class="text">
@@ -66,12 +98,10 @@ class IndexPage extends Component{
                             </article>
 
                         </section>
-            </div>
+                  </div>
             </Column>
-</Layout>
     )
   }
 }
-
 
 export default IndexPage

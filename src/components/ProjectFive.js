@@ -46,7 +46,7 @@ class ProjectFive extends Component {
         onMouseLeave={this.handleMouseHover}
       >
         <span>
-        <a href="/ProjectFiveDetails">{name}</a>
+        <a href="/ProjectFiveDetails">/{name}</a>
         </span>
       </div>
       {this.state.isHovering && <div>{description}</div>}

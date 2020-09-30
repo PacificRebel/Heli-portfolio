@@ -16,7 +16,7 @@ class IndexPage extends Component{
   <SEO title="Home" />
   <h2>Projects</h2>
 
-  <Link to="/using-typescript/">Link to Typescript info page</Link>
+  {/* <Link to="/using-typescript/">Link to Typescript info page</Link>*/}
 
       <Column>
             <div class="container">

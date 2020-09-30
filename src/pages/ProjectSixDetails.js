@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class ProjectThreeDetails extends Component {
+class ProjectSixDetails extends Component {
   constructor(props) {
     super(props)
       this.state = { starredUserData: [] }
@@ -21,9 +21,9 @@ class ProjectThreeDetails extends Component {
     let description = ''
     let homepage = ''
     if (data.length > 0) {
-      name = data[2].name
-      description = data[2].description
-      homepage = data[2].homepage
+      name = data[5].name
+      description = data[5].description
+      homepage = data[5].homepage
     }
 
     return (
@@ -37,4 +37,4 @@ class ProjectThreeDetails extends Component {
    }
  }
 
- export default ProjectThreeDetails
+ export default ProjectSixDetails

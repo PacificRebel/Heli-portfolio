@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { Component } from "react"
 
-class ProjectThree extends Component {
+class ProjectSix extends Component {
   constructor(props) {
     super(props)
       this.state = { starredUserData: [],
@@ -35,18 +35,18 @@ class ProjectThree extends Component {
     let name = ''
     let description = ''
     if (data.length > 0) {
-      name = data[2].name
-      description = data[2].description
+      name = data[5].name
+      description = data[5].description
     }
 
     return (
-      <div className="projectthree">
+      <div className="projectsix">
       <div
         onMouseEnter={this.handleMouseHover}
         onMouseLeave={this.handleMouseHover}
       >
         <span>
-        <a href="/ProjectThreeDetails">{name}</a>
+        <a href="/ProjectSixDetails">{name}</a>
         </span>
       </div>
       {this.state.isHovering && <div>{description}</div>}
@@ -56,4 +56,4 @@ class ProjectThree extends Component {
    }
  }
 
- export default ProjectThree
+ export default ProjectSix

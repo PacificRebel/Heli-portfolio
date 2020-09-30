@@ -4,7 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
-import ProjectThree from "../components/ProjectThree"
+import ProjectThree from "../components/ProjectThreeDetails"
+import ProjectOne from "../components/ProjectOneDetails"
 import "./styling.scss"
 import { Column, Row } from 'simple-flexbox';
 
@@ -15,13 +16,18 @@ class IndexPage extends Component{
   <SEO title="Home" />
   <h2>Projects</h2>
 
-  <Link to="/page-2/">Team 6 Game</Link> <br />
-  <Link to="/using-typescript/">Headline Search</Link>
+  <Link to="/using-typescript/">Link to Typescript info page</Link>
 
       <Column>
             <div class="container">
 
                         <section class="cards">
+
+                        <article class="card">
+                        <div class="text">
+                          <p><ProjectOne /></p>
+                          </div>
+                        </article>
 
                             <article class="card">
                             <div class="text">

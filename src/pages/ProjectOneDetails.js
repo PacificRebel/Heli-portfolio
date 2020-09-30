@@ -23,13 +23,15 @@ class ProjectOneDetails extends Component {
     if (data.length > 0) {
       name = data[0].name
       description = data[0].description
+      homepage = data[0].homepage
     }
 
     return (
       <div className="projectdetails">
       <span>
-      {name}{description}{homepage}
+      {name}{description}
       </span>
+      <a href={homepage}>{homepage}</a>
       </div>
      )
    }

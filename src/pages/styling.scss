@@ -3,6 +3,10 @@ h2 {
   font-size: 40px;
 }
 
+div {
+  white-space: pre-wrap;
+}
+
 .container {
 max-width: 100%;
 display: flex-grow;

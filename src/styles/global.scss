@@ -5,11 +5,12 @@ html {
 
 a:link {
   text-decoration: none;
-}
-
-a:unvisited {
   color: black;
 }
+
+.li a {
+  color: black;            
+   }
 
 a:visited {
   color: black;

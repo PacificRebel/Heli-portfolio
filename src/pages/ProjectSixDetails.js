@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 class ProjectSixDetails extends Component {
   render(){
   return(

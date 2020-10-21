@@ -46,7 +46,7 @@ class About extends Component {
           onMouseLeave={this.handleMouseHover}
         >
           <span>
-          <a href="/About">/about</a>
+          <a href="/AboutPage">/about</a>
           </span>
         </div>
         </div>

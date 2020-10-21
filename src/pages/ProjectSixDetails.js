@@ -7,7 +7,7 @@ class ProjectSixDetails extends Component {
           <div class="text">
 
           <p><h1>Heli Sivunen</h1> </p>
-<p>Full Stack / Front End Developer with TV news background <span role="img" aria-label="Clapperboard">🎬</span></p>
+<p>Full Stack / Front End Developer with TV news background <span role="img" alt="" aria-label="Clapperboard">🎬</span></p>
 <p>{`I'm a full stack developer, a recent graduate of the Makers bootcamp in
 London and work for Channel 4 News.`}  </p>
 <p>{`I'm particularly excited about front end work, especially building beautiful,
@@ -39,21 +39,21 @@ Makers,  designed and written in a group of 6.`}</p>
 <td><strong>Disco</strong></td>
 <p>{`Colour-changing app for learning to write React.`}</p>
 <p>{`Tech stack: Swift, Xcode`}</p>
-<img src="./public/JackTheRipper.gif" width="180" height="350"/>
+<img alt="" src="./public/JackTheRipper.gif" width="180" height="350"/>
 <a href="https://blooming-waters-22212.herokuapp.com/">https://blooming-waters-22212.herokuapp.com/</a>
-<img src="./images/Disco_1.gif"/>
+<img alt="" src="./images/Disco_1.gif"/>
 </p>
 <p>
 <td><strong>Headline Search</strong></td>
 <p>{`API call app for searching FT headlines.`}</p>
 <p>{`Tech stack: Ruby, Rails, CSS to emulate FT's colour and font.`}</p>
-<img src="/public/FT.gif"/>
+<img alt="" src="/public/FT.gif"/>
 </p>
 <p>
 <td><strong>Tarvikkeet</strong></td>
 <p>{`Finnish-language front end CRUD project to learn CSS and scrollytelling
 with still images and video. Tech stack: Ruby, Rails, HTML, CSS.`}</p>
-<img src="./images/Tarvikkeet_small.gif"/>
+<img alt="" src="./images/Tarvikkeet_small.gif"/>
 </p>
 <td><strong>Transferable skills</strong></td>
 

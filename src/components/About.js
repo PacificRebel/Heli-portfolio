@@ -49,7 +49,6 @@ class About extends Component {
           <a href="/About">/about</a>
           </span>
         </div>
-        {this.state.isHovering && <div>About me</div>}
         </div>
 
        )

@@ -24,9 +24,9 @@ my company's Sustainability Forum, where we work to reduce carbon footprint.`}  
 drawn into it as a career, especially girls. I got into programming myself
 thanks to a RailsGirls workshop, and have been coding with my daughter on
 Sphero Edu and Scratch.`}  </p>
-<p>{`Inclusive design fascinates me and I want to become good
-at it - I knew the issues but Chimmy Kalu's talk at this year's Women Driven
-Development conference was an eye-opener for me.`}  </p>
+<p>{`Inclusive design fascinates me and I want to become good at it - I knew
+the issues but Chimmy Kalu's talk at this year's Women Driven Development
+conference was an eye-opener for me.`}  </p>
 <h2>Projects</h2>
 <p>
 <td><strong>Jack The Ripper</strong></td>
@@ -40,9 +40,9 @@ Makers,  designed and written in a group of 6.`}</p>
 <td><strong>Disco</strong></td>
 <p>{`Colour-changing app for learning to write React.`}</p>
 <p>{`Tech stack: Swift, Xcode`}</p>
-<img alt="" src="./public/JackTheRipper.gif" width="180" height="350"/>
+<img src="/images/JackTheRipper.gif" width="180" height="350"/>
 <a href="https://blooming-waters-22212.herokuapp.com/">https://blooming-waters-22212.herokuapp.com/</a>
-<img alt="" src="./images/Disco_1.gif"/>
+<img rc="./images/Disco_1.gif"/>
 </p>
 <p>
 <td><strong>Headline Search</strong></td>

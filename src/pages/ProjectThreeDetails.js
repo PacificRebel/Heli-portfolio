@@ -29,7 +29,8 @@ class ProjectThreeDetails extends Component {
     return (
       <div className="projectdetails">
       <span>
-      {name}{description}
+      {name}<p>{`
+        `}</p>{description}
       </span>
       <a href={homepage}>{homepage}</a>
       </div>

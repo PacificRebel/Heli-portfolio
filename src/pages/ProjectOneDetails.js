@@ -30,7 +30,7 @@ class ProjectOneDetails extends Component {
       <div className="projectdetails">
       <span>
       {name}
-      <p>{`
+      <p>{` ** testing whether this shows on Netlify deployment**
         `}</p>
       {description}
       </span>

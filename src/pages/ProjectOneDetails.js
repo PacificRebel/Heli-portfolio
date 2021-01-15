@@ -28,12 +28,9 @@ class ProjectOneDetails extends Component {
 
     return (
       <div className="projectdetails">
-      <span>
-      {name}
-      <p>{` ** testing whether this shows on Netlify deployment**
-        `}</p>
-      {description}
-      </span>
+      <div>{name}</div>
+      <div><br></br></div>
+      <div>{description}</div>
       <a href={homepage}>{homepage}</a>
       </div>
      )

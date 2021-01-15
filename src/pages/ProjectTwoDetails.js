@@ -28,12 +28,11 @@ class ProjectTwoDetails extends Component {
 
     return (
       <div className="projectdetails">
-      <span>
-      {name}
-      <p>{`
-        `}</p>{description}
-      </span>
-      <a href={homepage}>{homepage}</a>
+      <div>{name}</div>
+      <div><br></br></div>
+      <div>{description}</div>
+      <div><br></br></div>
+      <a href={homepage}>The site is live here!</a>
       </div>
      )
    }

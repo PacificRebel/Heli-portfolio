@@ -31,7 +31,8 @@ class ProjectOneDetails extends Component {
       <div>{name}</div>
       <div><br></br></div>
       <div>{description}</div>
-      <a href={homepage}>{homepage}</a>
+      <div><br></br></div>
+      <a href={homepage}>The site is live here!</a>
       </div>
      )
    }
